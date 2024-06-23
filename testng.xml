@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/SP/IdeaProjects/ATB6xRestAssuredAPIs">
+        <classes>
+            <class name="com.thetestingacademy.testng.Lab261">
+                <methods>
+                    <include name="getRequest1"/>
+                    <include name="getRequest2"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.testng.Lab262">
+                <methods>
+                    <include name="getRequest1"/>
+                    <include name="getRequest2"/>
+                    <include name="getRequest3"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.ex_ra01.Lab263">
+                <methods>
+                    <include name="getRequest1"/>
+                </methods>
+
+
+            </class>
+        </classes>
+    </test>
+</suite>
