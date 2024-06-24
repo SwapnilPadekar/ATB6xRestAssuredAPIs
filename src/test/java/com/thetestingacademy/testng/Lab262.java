@@ -1,5 +1,6 @@
 package com.thetestingacademy.testng;
 
+import io.qameta.allure.AllureId;
 import io.qameta.allure.Description;
 import org.testng.annotations.Test;
 
