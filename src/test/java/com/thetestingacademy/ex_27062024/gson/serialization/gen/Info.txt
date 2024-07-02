@@ -1,0 +1,124 @@
+Copy the payload
+Go to - https://www.jsonschema2pojo.org/
+Enter package name
+Enter class name
+Paste the payload
+Select Source type: JSON
+Annotation style: GSON
+Click on preview
+The below classes are generated. Create classes accordingly.
+
+-----------------------------------com.thetestingacademy.ex_27062024.gson.serialization.Booking.java-----------------------------------
+
+package com.thetestingacademy.ex_27062024.gson.serialization;
+
+import javax.annotation.Generated;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+@Generated("jsonschema2pojo")
+public class Booking {
+
+@SerializedName("firstname")
+@Expose
+private String firstname;
+@SerializedName("lastname")
+@Expose
+private String lastname;
+@SerializedName("totalprice")
+@Expose
+private Integer totalprice;
+@SerializedName("depositpaid")
+@Expose
+private Boolean depositpaid;
+@SerializedName("bookingdates")
+@Expose
+private Bookingdates bookingdates;
+@SerializedName("additionalneeds")
+@Expose
+private String additionalneeds;
+
+public String getFirstname() {
+return firstname;
+}
+
+public void setFirstname(String firstname) {
+this.firstname = firstname;
+}
+
+public String getLastname() {
+return lastname;
+}
+
+public void setLastname(String lastname) {
+this.lastname = lastname;
+}
+
+public Integer getTotalprice() {
+return totalprice;
+}
+
+public void setTotalprice(Integer totalprice) {
+this.totalprice = totalprice;
+}
+
+public Boolean getDepositpaid() {
+return depositpaid;
+}
+
+public void setDepositpaid(Boolean depositpaid) {
+this.depositpaid = depositpaid;
+}
+
+public Bookingdates getBookingdates() {
+return bookingdates;
+}
+
+public void setBookingdates(Bookingdates bookingdates) {
+this.bookingdates = bookingdates;
+}
+
+public String getAdditionalneeds() {
+return additionalneeds;
+}
+
+public void setAdditionalneeds(String additionalneeds) {
+this.additionalneeds = additionalneeds;
+}
+
+}
+-----------------------------------com.thetestingacademy.ex_27062024.gson.serialization.Bookingdates.java-----------------------------------
+
+package com.thetestingacademy.ex_27062024.gson.serialization;
+
+import javax.annotation.Generated;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+@Generated("jsonschema2pojo")
+public class Bookingdates {
+
+@SerializedName("checkin")
+@Expose
+private String checkin;
+@SerializedName("checkout")
+@Expose
+private String checkout;
+
+public String getCheckin() {
+return checkin;
+}
+
+public void setCheckin(String checkin) {
+this.checkin = checkin;
+}
+
+public String getCheckout() {
+return checkout;
+}
+
+public void setCheckout(String checkout) {
+this.checkout = checkout;
+}
+
+}

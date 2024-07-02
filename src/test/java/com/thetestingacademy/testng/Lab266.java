@@ -7,7 +7,7 @@ public class Lab266 {
 
     @Test
     public void testCase1(){
-        Assert.assertEquals(true,true);
+        Assert.assertEquals(true, true);
     }
 
     @Test

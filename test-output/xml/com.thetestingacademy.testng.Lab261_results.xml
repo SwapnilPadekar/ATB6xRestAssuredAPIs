@@ -4,12 +4,12 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="4.575">
+           time="5.133">
     <properties></properties>
 
             <testcase
                 name="getRequest2"
-                time="1.163"
+                time="1.092"
                 classname="com.thetestingacademy.testng.Lab261">
 
             <failure type="java.lang.AssertionError" message="1 expectation failed.
@@ -26,7 +26,7 @@ Expected status code <200> but was <201>.
 
             <testcase
                 name="getRequest1"
-                time="3.412"
+                time="4.041"
                 classname="com.thetestingacademy.testng.Lab261">
             </testcase>
 </testsuite>

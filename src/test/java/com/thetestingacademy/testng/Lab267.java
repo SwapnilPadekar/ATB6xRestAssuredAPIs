@@ -2,52 +2,54 @@ package com.thetestingacademy.testng;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import sun.security.rsa.RSAUtil;
 
 public class Lab267 {
 
-    //CRUD
-    //Create Booking -> ID
-    //Create Auth -> Token
-    //PUT -> ID, Token
-    //Delete -> ID
-    //GET -> ID --Verify it should not exist
+    // Integration
+    // Create Booking, -> ID
+    // Create Auth  -> Token
+    // PUT -> ID, Token
+    // Delete -> ID
+    // GET -> ID -- verify it should not exist.
+
 
     String token;
     Integer bookingID;
 
-    public String getToken(){
+    public String getToken() {
         token = "123";
         return token;
     }
 
     @BeforeTest
-    public void getTokenAndBookingID(){
+    public void getTokenAndBookingID() {
         token = getToken();
-        //Post request
-        //Post code
-        bookimngID = 123;
+        // POST Req -
+        // POST code
+        bookingID = 123;
     }
 
     @Test
-    public void testPUTReq(){
+    public void testPUTReq() {
         System.out.println(token);
         System.out.println(bookingID);
-        //PUT code
+        // PUT Code
     }
 
     @Test
-    public void testDELETEReq(){
+    public void testDeleteReq() {
         System.out.println(token);
         System.out.println(bookingID);
-        //DELETE code
+        // DELETE Code
     }
 
     @Test
-    public void testGETReq(){
+    public void testGETReq() {
+        System.out.println(token);
         System.out.println(bookingID);
-        //GET code
+        // GET Code
     }
+
 
 
 }

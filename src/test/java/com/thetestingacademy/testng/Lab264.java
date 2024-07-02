@@ -2,56 +2,55 @@ package com.thetestingacademy.testng;
 
 import org.testng.annotations.*;
 
-
 public class Lab264 {
+
     @BeforeSuite
-    void Demo1(){
+    void demo1() {
         System.out.println("BeforeSuite");
-        System.out.println("Open DB");
-        System.out.println("Read CSV or Excel File");
-        System.out.println("Read text or Environment oe Property file");
+        System.out.println("open Database");
+        System.out.println("Read CSV or Excel");
+        System.out.println("Read Text / Env or property");
     }
 
     @BeforeTest
-    void Demo2(){
+    void demo2() {
         System.out.println("BeforeTest");
     }
 
     @BeforeClass
-    void Demo3(){
+    void demo3() {
         System.out.println("BeforeClass");
     }
 
     @BeforeMethod
-    void Demo4(){
+    void demo4() {
         System.out.println("BeforeMethod");
     }
 
     @Test
-    void Demo5(){
+    void demo5() {
         System.out.println("Test");
     }
 
     @AfterMethod
-    void Demo6(){
+    void demo6() {
         System.out.println("AfterMethod");
     }
 
     @AfterClass
-    void Demo7(){
+    void demo7() {
         System.out.println("AfterClass");
     }
 
     @AfterTest
-    void Demo8(){
+    void demo8() {
         System.out.println("AfterTest");
     }
 
     @AfterSuite
-    void Demo9(){
+    void demo9() {
         System.out.println("AfterSuite");
-        System.out.println("Close DB Connections");
-        System.out.println("Close all open connections");
+        System.out.println("Close DB Connection");
+        System.out.println("Close opened files");
     }
-
 }

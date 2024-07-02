@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/SP/IdeaProjects/ATB6xRestAssuredAPIs"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.149">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testNonBDDStylePOSTPositive"
+                time="1.077"
+                classname="POST.com.thetestingacademy.ex_22062024.CRUD.Lab272">
+            </testcase>
+            <testcase
+                name="testNonBDDStylePOSTNegative"
+                time="1.072"
+                classname="POST.com.thetestingacademy.ex_22062024.CRUD.Lab272">
+            </testcase>
+</testsuite>

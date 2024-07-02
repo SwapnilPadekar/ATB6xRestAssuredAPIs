@@ -1,26 +1,25 @@
 package com.thetestingacademy.testng;
 
-import io.qameta.allure.AllureId;
 import io.qameta.allure.Description;
 import org.testng.annotations.Test;
 
 public class Lab262 {
 
-    @Description("TC#262_1 - Verify get request 1")
+    @Description("TC#1 - Verify GET Request 1")
     @Test
-    public void getRequest1(){
-        System.out.println("Get Request 1");
+    public void getRequest(){
+        System.out.println("TC");
     }
 
-    @Description("TC#262_2 - Verify get request 2")
-    @Test
+    @Description("TC#1 - Verify GET Request 2")
+    @Test(enabled = false)
     public void getRequest2(){
-        System.out.println("Get Request 2");
+        System.out.println("TC2");
     }
 
-    @Description("TC#262_3 - Verify get request 3")
+    @Description("TC#1 - Verify GET Request 3")
     @Test
     public void getRequest3(){
-        System.out.println("Get Request 3");
+        System.out.println("TC3");
     }
 }
